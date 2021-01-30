@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: seat
+  resources:
+    static-locations: classpath:/static/
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: select_seat
+    url: jdbc:mysql://localhost:3306/select_seat?serverTimezone=UTC
+    username: root
+    password: 123456
+server:
+  port: 8181
+
+
